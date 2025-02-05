@@ -9,7 +9,7 @@ function Leaderboard() {
   const [domain, setDomain] = useState('');
 
   const fetchInfluencers = useCallback((data = {}) => {
-    axios.post('http://localhost:8000/api/influencers', data)
+    axios.post('https://healthexpert1.onrender.com/api/influencers', data)
       .then(response => {
         setInfluencers(response.data);
         console.log(response.data); // Log the response data

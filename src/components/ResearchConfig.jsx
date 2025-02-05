@@ -13,7 +13,7 @@ function ResearchConfig() {
   }, []);
 
   const fetchClaimsByType = (type) => {
-    axios.get(`http://localhost:8000/api/discovery/claims/${type}`)
+    axios.get(`https://healthexpert1.onrender.com/api/discovery/claims/${type}`)
       .then(response => {
         setClaims(response.data);
       })
@@ -21,7 +21,7 @@ function ResearchConfig() {
   };
 
   const fetchClaims = (params = {}) => {
-    axios.post('http://localhost:8000/api/discovery/claims', params)
+    axios.post('https://healthexpert1.onrender.com/api/discovery/claims', params)
       .then(response => {
         setClaims(response.data);
       })

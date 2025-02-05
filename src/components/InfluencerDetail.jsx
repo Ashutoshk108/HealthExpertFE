@@ -8,7 +8,7 @@ function InfluencerDetail() {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    axios.get(`http://localhost:8000/api/influencers/${id}`)
+    axios.get(`https://healthexpert1.onrender.com/api/influencers/${id}`)
       .then(response => setData(response.data))
       .catch(error => console.error(error));
   }, [id]);
