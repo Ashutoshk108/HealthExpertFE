@@ -1,0 +1,83 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #e0e7ff, #f0f4f8);
+    margin: 0;
+    padding: 0;
+  }
+  
+  .research-config {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 15px 15px 5px 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-left: 5px solid #d1c4e9;
+    border-right: 5px solid #d1c4e9;
+    border-bottom: 5px solid #d1c4e9;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #4a4e69;
+  }
+  
+  .search-bar {
+    margin-bottom: 20px;
+  }
+  
+  .search-bar input, .search-bar select {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 200px;
+  }
+  
+  .search-bar button {
+    background-color: #6c63ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  
+  .search-bar button:hover {
+    background-color: #5753c9;
+  }
+  
+  .claims-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .claims-table th, .claims-table td {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .claims-table th {
+    background-color: #e0f7fa;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .claims-table tr:nth-child(even) {
+    background-color: #f1f8e9;
+  }
+  
+  .claims-table tr:hover {
+    background-color: #e3f2fd;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
